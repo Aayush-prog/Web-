@@ -1,0 +1,49 @@
+p {
+    color:rgb(87, 59, 147);
+
+}
+*{
+    font-family:'Fjalla One';
+}
+img{
+    padding:5px;
+    margin:5px;
+    width: 30%;
+    height:400px;
+    border-style: groove;
+    border-width: 50px;
+}
+#container{
+    background-color: aqua;
+    height:750px;
+}
+.main{
+    width: 50%;
+    height:30px;
+}
+.img{
+    height:30px;
+    width: 50%;
+}
+.main, .img{
+    float:left;
+}
+@media(max-width:628px){
+    p{
+        color:green;
+    }
+#container .img{
+    width:30%;
+}
+}
+@media(max-width:628px){
+    p{
+        color:rgb(84, 50, 205);
+    }
+#container{
+    width:100%;
+}
+.img{
+    height:auto;
+}
+}
