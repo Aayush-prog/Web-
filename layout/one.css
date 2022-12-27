@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.flex-container{
+    width: 100%;
+    height: auto;
+    background-image:linear-gradient(chartreuse,blue,grey) ;
+    border: 50px solid rgba(255, 0, 0, 0.626);
+    display:flex ;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+}
+.flex-item{
+    margin: 0%;
+    padding: 0%;
+    border: 10px dashed black;
+    width: 33.33%;
+    height: auto;
+}
+.flex-item p{
+    text-decoration: overline;
+    text-align: justify;
+    letter-spacing: 10px;
+    text-indent: 100px;
+    line-height: 3;
+    text-transform: uppercase;
+}
+.flex-item img{
+    width: auto;
+    height: auto;
+}
