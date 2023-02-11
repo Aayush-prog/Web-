@@ -68,7 +68,7 @@ body{
 
 }
 table {
-    margin-top: 300px;
+    margin-top: 100px;
     margin-left: 100px;
     width: 85%;
     animation: utb 1s ease-out;
@@ -80,4 +80,8 @@ th, td {
   }
 th {
     background-color: lightgray;
+  }
+.info h1{
+    transform: translateX(450px);
+    margin-top: 250px;
   }
